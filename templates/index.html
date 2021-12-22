@@ -7,6 +7,14 @@
     <title>POKEDEX</title>
 </head>
 <body>
-    <H1>teste</H1>
+    <div class="cotainer">
+        <ul>
+            {% for itens in list_pokemons%}
+            <img src="{{itens.img}}" alt="">
+            <li>{{itens.name}}</li>
+            <li>{{itens.type}}</li>
+            {%endfor%}
+        </ul>
+    </div>
 </body>
 </html>
