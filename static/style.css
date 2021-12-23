@@ -1,0 +1,39 @@
+body{
+    background-color: #FF5252;
+    color: white;
+    margin: 0;
+}
+img{
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box{
+    position: relative;
+    min-width: 220px;
+    min-height: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: black 2px solid;
+}
+.circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20px;
+}

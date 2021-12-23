@@ -1,34 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <style>
-        body{
-            background-color: #FF5252;
-            color: white;
-        }
-        .cotainer{
-            position: absolute;
-            width: 90%;
-            height: 90%;
-        }
-        .grid-box{
-            position: relative;
-            width: 200px;
-            height: 180px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='style.css')}}">
 
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>POKEDEX</title>
 </head>
 <body>
-    <div class="cotainer">
+    <section class="flex">
         {% for itens in list_pokemons%}
-        <div class="grid-box">
+        <div class="box">
+            <section class="circle"></section>
             <img src="{{itens.img}}" alt="{{itens.name}}" class="pokemon-img">
             <label class="pokemon-name">{{itens.name}}</label><br>
             <label class="pokemon-type">{{itens.type}}</label>
         </div>
         {%endfor%}
-    </div>
+    </section>
 </body>
 </html>
