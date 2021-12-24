@@ -1,13 +1,13 @@
 body{
-    background-color: #FF5252;
+    background-color: #333333;
     color: white;
     margin: 0;
 }
 img{
     position: absolute;
     display: block;
-    width: 140px;
-    height: 140px;
+    min-width: 100px;
+    min-height: 100px;
     margin: auto;
     left: 0;
     right: 0;
@@ -17,18 +17,22 @@ img{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 .box{
     position: relative;
-    min-width: 220px;
-    min-height: 220px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: black 2px solid;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: #777777 2px solid;
 }
 .circle{
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     background-color: white;
     position: absolute;
