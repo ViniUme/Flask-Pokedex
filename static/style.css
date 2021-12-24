@@ -43,14 +43,44 @@ img{
     border: black 1px solid;
 }
 label{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
-.pokemon-type1{
-    font-size: 12px;
-    display: inline-block;
-    width: 50px;
-    height: 15px;
-    background-color: green;
+.type-button{
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
     text-align: center;
-    margin: auto;
+    border: none;
+    width: 70px;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+}
+.grass{
+    background-color: #09ac11;
+}
+.fire{
+    background-color: #e00000;
+}
+.water{
+    background-color: #0000dd;
+}
+.poison{
+    background-color: #800080;
+}
+.bug{
+    background-color: #2d6400;
+}
+.flying{
+    background-color: #7278aa;
+}
+.normal{
+    background-color: #9ea094;
+    color: black;
+}
+.electric{
+    background-color: #ffff00;
+    color: black;
+}
+.ground{
+    background-color: #7a6800;
 }

@@ -3,7 +3,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='style.css')}}">
 
@@ -17,12 +17,11 @@
             <div class="circle"></div>
             <img src="{{itens.img}}" alt="{{itens.name}}" class="pokemon-img">
             <label class="pokemon-name">{{itens.id}}# {{itens.name}}</label><br>
-            <input type="button" value="{{itens.type1}}">
-
+            <input type="button" value="{{itens.type1}}" class="{{itens.type1}} type-button">
             {% if itens.type2 == "" %}
                 <input type="button" value="{{itens.type2}}" hidden>
             {% else %}
-                <input type="button" value="{{itens.type2}}">
+                <input type="button" value="{{itens.type2}}" class="{{itens.type2}} type-button">
             {% endif %}
                 
         </div>
