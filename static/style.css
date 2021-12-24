@@ -11,7 +11,7 @@ img{
     margin: auto;
     left: 0;
     right: 0;
-    top: 20px;
+    top: 50px;
 }
 .flex{
     display: flex;
@@ -21,8 +21,8 @@ img{
 }
 .box{
     position: relative;
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 170px;
+    min-height: 170px;
     max-width: 250px;
     max-height: 250px;
     margin-left: 5px;
@@ -39,5 +39,18 @@ img{
     margin: auto;
     left: 0;
     right: 0;
-    top: 20px;
+    top: 50px;
+    border: black 1px solid;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+}
+.pokemon-type1{
+    font-size: 12px;
+    display: inline-block;
+    width: 50px;
+    height: 15px;
+    background-color: green;
+    text-align: center;
+    margin: auto;
 }

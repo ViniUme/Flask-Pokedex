@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='style.css')}}">
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -10,10 +14,17 @@
     <section class="flex">
         {% for itens in list_pokemons%}
         <div class="box">
-            <section class="circle"></section>
+            <div class="circle"></div>
             <img src="{{itens.img}}" alt="{{itens.name}}" class="pokemon-img">
-            <label class="pokemon-name">{{itens.name}}</label><br>
-            <label class="pokemon-type">{{itens.type}}</label>
+            <label class="pokemon-name">{{itens.id}}# {{itens.name}}</label><br>
+            <input type="button" value="{{itens.type1}}">
+
+            {% if itens.type2 == "" %}
+                <input type="button" value="{{itens.type2}}" hidden>
+            {% else %}
+                <input type="button" value="{{itens.type2}}">
+            {% endif %}
+                
         </div>
         {%endfor%}
     </section>
