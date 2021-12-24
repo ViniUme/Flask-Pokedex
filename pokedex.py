@@ -17,7 +17,7 @@ def index():
     id_pokemon = 1
     
     try:
-        while (id_pokemon != 152):
+        while (id_pokemon != 891):
             url = json.loads(requests.get(f"https://pokeapi.co/api/v2/pokemon/{id_pokemon}").text)
             name = url['forms'][0]['name']
             type = url['types'][0]['type']['name']
