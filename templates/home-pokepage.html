@@ -15,8 +15,8 @@
 
         {% for itens in list_pokemons%}
         <div class="box">
-            <label class="pokemon-name">{{itens.id}}# {{itens.name}}</label><br>
             <img src="{{itens.img}}" alt="{{itens.name}}" class="pokemon-img"><br>
+            <label class="pokemon-name">#{{itens.id}}<br>{{itens.name}}</label>
             <input type="button" value="{{itens.type1}}" class="{{itens.type1}} type-button">
             {% if itens.type2 == "" %}
                 <input type="button" value="{{itens.type2}}" hidden>

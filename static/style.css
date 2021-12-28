@@ -1,5 +1,5 @@
 body{
-    background-color: #333333;
+    background-color: #121212;
     color: white;
     margin: 0;
 }
@@ -8,7 +8,9 @@ img{
     min-height: 150px;
     max-width: 198px;
     max-height: 198px;
-    margin-top: -30px;
+}
+a{
+    text-decoration: none;
 }
 .flex{
     display: flex;
@@ -26,12 +28,10 @@ img{
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: #777777 2px solid;
+    border: #B3B3B3 2px solid;
 }
 label{
     font-family: 'Inter', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
     display: block;
     font-size: 13px;
 }
@@ -46,10 +46,10 @@ label{
     border-radius: 5px;
 }
 .grass{
-    background-color: #09ac11;
+    background-color: #2CD426;
 }
 .fire{
-    background-color: #e00000;
+    background-color: #F25500;
 }
 .water{
     background-color: #0000dd;
@@ -58,19 +58,67 @@ label{
     background-color: #800080;
 }
 .bug{
-    background-color: #2d6400;
+    background-color: #377a00;
 }
 .flying{
-    background-color: #7278aa;
+    background-color: #7e72aa;
 }
 .normal{
-    background-color: #9ea094;
-    color: black;
+    background-color: #5f634e;
 }
 .electric{
     background-color: #ffff00;
     color: black;
 }
 .ground{
+    background-color: #493e00;
+}
+.fairy{
+    background-color: #ff00ff;
+}
+.fighting{
+    background-color: #d40000;
+}
+.psychic{
+    background-color: #ff006a;
+}
+.rock{
     background-color: #7a6800;
+}
+.steel{
+    background-color: #72747c;
+}
+.ice{
+    background-color: #1BE3C6;
+    color: black;
+}
+.ghost{
+    background-color: #420942;
+}
+.dark{
+    background-color: #3b1f07;
+}
+.dragon{
+    background-color: #3e01af;
+}
+
+.div-pages{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    left: 0;
+    right: 0;
+}
+.button-pages{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #212121;
+    border: #B3B3B3 2px solid;
+    color: white;
+    margin: 5px;
+    border-radius: 100%;
 }
