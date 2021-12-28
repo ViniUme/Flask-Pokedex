@@ -4,14 +4,11 @@ body{
     margin: 0;
 }
 img{
-    position: absolute;
-    display: block;
-    min-width: 100px;
-    min-height: 100px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 50px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 198px;
+    max-height: 198px;
+    margin-top: -30px;
 }
 .flex{
     display: flex;
@@ -21,30 +18,22 @@ img{
 }
 .box{
     position: relative;
-    min-width: 170px;
-    min-height: 170px;
-    max-width: 250px;
-    max-height: 250px;
+    min-width: 220px;
+    min-height: 220px;
+    max-width: 290px;
+    max-height: 290px;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     border: #777777 2px solid;
 }
-.circle{
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: white;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 50px;
-    border: black 1px solid;
-}
 label{
     font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 13px;
 }
 .type-button{
     margin-top: 5px;
@@ -52,9 +41,9 @@ label{
     text-align: center;
     border: none;
     width: 70px;
-    font-size: 14px;
+    font-size: 13px;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .grass{
     background-color: #09ac11;

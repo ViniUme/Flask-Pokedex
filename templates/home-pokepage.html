@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='style.css')}}">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>POKEDEX</title>
+</head>
+<body>
+    <section class="flex">
+
+        {% for itens in list_pokemons%}
+        <div class="box">
+            <label class="pokemon-name">{{itens.id}}# {{itens.name}}</label><br>
+            <img src="{{itens.img}}" alt="{{itens.name}}" class="pokemon-img"><br>
+            <input type="button" value="{{itens.type1}}" class="{{itens.type1}} type-button">
+            {% if itens.type2 == "" %}
+                <input type="button" value="{{itens.type2}}" hidden>
+            {% else %}
+                <input type="button" value="{{itens.type2}}" class="{{itens.type2}} type-button">
+            {% endif %}
+        </div>
+        {%endfor%}
+
+    </section>
+
+    <section class="div-pages">
+        <a href="/home/pokepage1">
+            <input type="button" value="1" class="button-pages">
+        </a>
+        <a href="/home/pokepage2">
+            <input type="button" value="2" class="button-pages">
+        </a>
+        <a href="/home/pokepage3">
+            <input type="button" value="3" class="button-pages">
+        </a>
+        <a href="/home/pokepage4">
+            <input type="button" value="4" class="button-pages">
+        </a>
+        <a href="/home/pokepage5">
+            <input type="button" value="5" class="button-pages">
+        </a>
+        <a href="/home/pokepage6">
+            <input type="button" value="6" class="button-pages">
+        </a>
+        <a href="/home/pokepage7">
+            <input type="button" value="7" class="button-pages">
+        </a>
+        <a href="/home/pokepage8">
+            <input type="button" value="8" class="button-pages">
+        </a>
+        <a href="/home/pokepage9">
+            <input type="button" value="9" class="button-pages">
+        </a>
+        <a href="/home/pokepage10">
+            <input type="button" value="10" class="button-pages">
+        </a>
+        <a href="/home/pokepage11">
+            <input type="button" value="11" class="button-pages">
+        </a>
+        <a href="/home/pokepage12">
+            <input type="button" value="12" class="button-pages">
+        </a>
+        <a href="/home/pokepage13">
+            <input type="button" value="13" class="button-pages">
+        </a>
+        <a href="/home/pokepage14">
+            <input type="button" value="14" class="button-pages">
+        </a>
+        <a href="/home/pokepage15">
+            <input type="button" value="15" class="button-pages">
+        </a>
+        <a href="/home/pokepage16">
+            <input type="button" value="16" class="button-pages">
+        </a>
+        <a href="/home/pokepage17">
+            <input type="button" value="17" class="button-pages">
+        </a>
+        <a href="/home/pokepage18">
+            <input type="button" value="18" class="button-pages">
+        </a>
+        <a href="/home/pokepage19">
+            <input type="button" value="19" class="button-pages">
+        </a>
+        <a href="/home/pokepage20">
+            <input type="button" value="20" class="button-pages">
+        </a>
+        <a href="/home/pokepage21">
+            <input type="button" value="21" class="button-pages">
+        </a>
+        <a href="/home/pokepage22">
+            <input type="button" value="22" class="button-pages">
+        </a>
+        <a href="/home/pokepage23">
+            <input type="button" value="23" class="button-pages">
+        </a>
+        <a href="/home/pokepage24">
+            <input type="button" value="24" class="button-pages">
+        </a>
+        <a href="/home/pokepage25">
+            <input type="button" value="25" class="button-pages">
+        </a>
+        <a href="/home/pokepage26">
+            <input type="button" value="26" class="button-pages">
+        </a>
+        <a href="/home/pokepage27">
+            <input type="button" value="27" class="button-pages">
+        </a>
+        <a href="/home/pokepage28">
+            <input type="button" value="28" class="button-pages">
+        </a>
+        <a href="/home/pokepage29">
+            <input type="button" value="29" class="button-pages">
+        </a>
+        <a href="/home/pokepage30">
+            <input type="button" value="30" class="button-pages">
+        </a>
+        <a href="/home/pokepage31">
+            <input type="button" value="31" class="button-pages">
+        </a>
+        <a href="/home/pokepage32">
+            <input type="button" value="32" class="button-pages">
+        </a>
+        <a href="/home/pokepage33">
+            <input type="button" value="33" class="button-pages">
+        </a>
+        <a href="/home/pokepage34">
+            <input type="button" value="34" class="button-pages">
+        </a>
+        <a href="/home/pokepage35">
+            <input type="button" value="35" class="button-pages">
+        </a>
+        <a href="/home/pokepage36">
+            <input type="button" value="36" class="button-pages">
+        </a>
+    </section>
+</body>
+</html>
