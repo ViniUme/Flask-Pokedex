@@ -1,39 +1,124 @@
 body{
-    background-color: #FF5252;
+    background-color: #121212;
     color: white;
     margin: 0;
 }
 img{
-    position: absolute;
-    display: block;
-    width: 140px;
-    height: 140px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 20px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 198px;
+    max-height: 198px;
+}
+a{
+    text-decoration: none;
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 .box{
     position: relative;
     min-width: 220px;
     min-height: 220px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: black 2px solid;
+    max-width: 290px;
+    max-height: 290px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: #B3B3B3 2px solid;
 }
-.circle{
-    width: 140px;
-    height: 140px;
-    border-radius: 100%;
-    background-color: white;
-    position: absolute;
+label{
+    font-family: 'Inter', sans-serif;
+    display: block;
+    font-size: 13px;
+}
+.type-button{
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    border: none;
+    width: 70px;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+}
+.grass{
+    background-color: #2CD426;
+}
+.fire{
+    background-color: #F25500;
+}
+.water{
+    background-color: #0000dd;
+}
+.poison{
+    background-color: #800080;
+}
+.bug{
+    background-color: #377a00;
+}
+.flying{
+    background-color: #7e72aa;
+}
+.normal{
+    background-color: #5f634e;
+}
+.electric{
+    background-color: #ffff00;
+    color: black;
+}
+.ground{
+    background-color: #493e00;
+}
+.fairy{
+    background-color: #ff00ff;
+}
+.fighting{
+    background-color: #d40000;
+}
+.psychic{
+    background-color: #ff006a;
+}
+.rock{
+    background-color: #7a6800;
+}
+.steel{
+    background-color: #72747c;
+}
+.ice{
+    background-color: #1BE3C6;
+    color: black;
+}
+.ghost{
+    background-color: #420942;
+}
+.dark{
+    background-color: #3b1f07;
+}
+.dragon{
+    background-color: #3e01af;
+}
+
+.div-pages{
+    width: 80%;
+    height: 80%;
+    text-align: center;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     left: 0;
     right: 0;
-    top: 20px;
+}
+.button-pages{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #212121;
+    border: #B3B3B3 2px solid;
+    color: white;
+    margin: 5px;
+    border-radius: 100%;
 }
