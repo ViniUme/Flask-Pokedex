@@ -14,16 +14,18 @@
     <section class="flex">
 
         {% for itens in list_pokemons%}
-        <div class="box">
-            <img src="{{itens.img}}" alt="{{itens.name}}" class="pokemon-img"><br>
-            <label class="pokemon-name">#{{itens.id}}<br>{{itens.name}}</label>
-            <input type="button" value="{{itens.type1}}" class="{{itens.type1}} type-button">
-            {% if itens.type2 == "" %}
-                <input type="button" value="{{itens.type2}}" hidden>
-            {% else %}
-                <input type="button" value="{{itens.type2}}" class="{{itens.type2}} type-button">
-            {% endif %}
-        </div>
+        <a href="/pokemon/{{itens.id}}">
+            <div class="box">
+                <img src="{{itens.img}}" alt="{{itens.name}}" class="pokemon-img"><br>
+                <label class="pokemon-name">#{{itens.id}}<br>{{itens.name}}</label>
+                <input type="button" value="{{itens.type1}}" class="{{itens.type1}} type-button">
+                {% if itens.type2 == "" %}
+                    <input type="button" value="{{itens.type2}}" hidden>
+                {% else %}
+                    <input type="button" value="{{itens.type2}}" class="{{itens.type2}} type-button">
+                {% endif %}
+            </div>
+        </a>
         {%endfor%}
 
     </section>

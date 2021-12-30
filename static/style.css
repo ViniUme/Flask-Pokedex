@@ -11,6 +11,7 @@ img{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 .flex{
     display: flex;
@@ -18,8 +19,11 @@ a{
     text-align: center;
     justify-content: center;
 }
+
+
 .box{
     position: relative;
+    background-color: #121212;
     min-width: 220px;
     min-height: 220px;
     max-width: 290px;
@@ -29,11 +33,20 @@ a{
     margin-top: 5px;
     margin-bottom: 5px;
     border: #B3B3B3 2px solid;
+    transition: background-color 200ms ease-in-out;
 }
+.box:hover{
+    background-color: #212121;
+}
+
+
 label{
     font-family: 'Inter', sans-serif;
     display: block;
     font-size: 13px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 .type-button{
     margin-top: 5px;
@@ -44,9 +57,10 @@ label{
     font-size: 13px;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .grass{
-    background-color: #2CD426;
+    background-color: #1cc017;
 }
 .fire{
     background-color: #F25500;
@@ -121,4 +135,9 @@ label{
     color: white;
     margin: 5px;
     border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+}
+.button-pages:hover{
+    background-color: #121212;
 }
