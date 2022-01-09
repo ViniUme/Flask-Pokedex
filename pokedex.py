@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/")
 @app.route("/home")
-def Home():
+def home():
     
     list_pokemons = []
     const_id = 26
@@ -50,7 +50,7 @@ def Home():
     )
 
 @app.route("/home/pokepage<id_page>")
-def Pokepage(id_page):
+def pokepage(id_page):
     
     list_pokemons = []
     
@@ -109,7 +109,6 @@ def Pokepage(id_page):
         return render_template("home-pokepage.html",
         list_pokemons = list_pokemons
         )
-    
-    
+
 if (__name__ == "__main__"):
     app.run(debug=True)
