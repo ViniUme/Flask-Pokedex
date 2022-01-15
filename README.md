@@ -13,14 +13,14 @@ A site maked with Python, using the Flask framework and get data from an API. Al
 Comming soon, each pokemon will have its own page, including attacks, evolutions and more. Will have too a page of itens, will show a picture of item, name and id.
 
 ## Technologeis Used
-*Front-End
-    *HTML
-    *CSS
+* Front-End
+    * HTML
+    * CSS
 *Back-End
-    *Python
-    *Flask
-    *Requests
-    *Heroku
+    * Python
+    * Flask
+    * Requests
+    * Heroku
 
 ## Accessse the site <a href="https://flaskpokedex.herokuapp.com">here</a>
 ![Capturar](https://user-images.githubusercontent.com/66230638/149636411-5a33bfcd-0ccb-4a42-b388-c59259730533.PNG)
