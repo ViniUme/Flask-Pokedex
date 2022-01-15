@@ -16,7 +16,7 @@ Comming soon, each pokemon will have its own page, including attacks, evolutions
 * Front-End
     * HTML
     * CSS
-*Back-End
+* Back-End
     * Python
     * Flask
     * Requests
