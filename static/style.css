@@ -1,13 +1,10 @@
 body{
-    background-color: #121212;
+    background-color: #161616;
     color: white;
     margin: 0;
 }
 img{
-    min-width: 150px;
-    min-height: 150px;
-    max-width: 198px;
-    max-height: 198px;
+    width: 150px;
 }
 a{
     text-decoration: none;
@@ -17,26 +14,48 @@ a{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 .box{
     position: relative;
-    min-width: 220px;
-    min-height: 220px;
-    max-width: 290px;
-    max-height: 290px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border: #B3B3B3 2px solid;
+    width: 190px;
+    height: 250px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #272727;
+    border-radius: 20px;
+    transition: background-color 250ms ease-in-out;
+    cursor: pointer;
+    border: #dfdfdf solid 2px;
+}
+.box:hover{
+    background-color: transparent;
 }
 label{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+.pokemon-data{
     font-family: 'Inter', sans-serif;
     display: block;
     font-size: 13px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left: 10px;
+}
+.pokemon-name{
+    font-size: 18px;
+    display: block;
+    margin-top: 5px;
 }
 .type-button{
-    margin-top: 5px;
     font-family: 'Inter', sans-serif;
     text-align: center;
     border: none;
@@ -46,7 +65,7 @@ label{
     border-radius: 5px;
 }
 .grass{
-    background-color: #2CD426;
+    background-color: #0db107;
 }
 .fire{
     background-color: #F25500;
@@ -116,9 +135,13 @@ label{
     width: 50px;
     height: 50px;
     font-size: 15px;
-    background-color: #212121;
-    border: #B3B3B3 2px solid;
+    background-color: #2e2e2e;
+    border: #dfdfdf 2px solid;
     color: white;
     margin: 5px;
     border-radius: 100%;
+    transition: background-color 250ms ease-in-out;
+}
+.button-pages:hover{
+    background-color: #1d1d1d;
 }

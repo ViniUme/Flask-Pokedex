@@ -45,8 +45,7 @@ def home():
             return "request erro"
     
     return render_template("home-pokepage.html",
-    list_pokemons = list_pokemons,
-    id_pokepage = 1
+    list_pokemons = list_pokemons
     )
 
 @app.route("/home/pokepage<id_page>")
