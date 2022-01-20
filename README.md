@@ -17,7 +17,7 @@ Comming soon, each pokemon will have its own page, including attacks, evolutions
     * Requests
     * Heroku
 
-## Accessse the site <a href="https://flaskpokedex.herokuapp.com">here</a>
+## Access the site <a href="https://flaskpokedex.herokuapp.com">here</a>
 ![Capturar](https://user-images.githubusercontent.com/66230638/149636411-5a33bfcd-0ccb-4a42-b388-c59259730533.PNG)
 
 ## how to run
