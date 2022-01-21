@@ -1,4 +1,12 @@
 # <div align="center">Flask-Pokedex</div>
+
+<div align="center">
+   
+   ![GitHub](https://img.shields.io/github/license/ViniUme/Flask-Pokedex?color=%23000&style=for-the-badge)
+   ![Capturar](https://user-images.githubusercontent.com/66230638/149636411-5a33bfcd-0ccb-4a42-b388-c59259730533.PNG)
+   
+</div>
+
 ## About
 A site maked with Python, using the Flask framework and get data from an API. All data is get from <a href="https://pokeapi.co">PokeAPI</a>, the site hosted in <a href="https://www.heroku.com">Heroku</a>. this site show id, name, types and picture of all pokemons.
 
@@ -23,7 +31,6 @@ A site maked with Python, using the Flask framework and get data from an API. Al
 </div>
 
 ## Access the site <a href="https://flaskpokedex.herokuapp.com">here</a>
-![Capturar](https://user-images.githubusercontent.com/66230638/149636411-5a33bfcd-0ccb-4a42-b388-c59259730533.PNG)
 
 ## how to run
 <ol>
