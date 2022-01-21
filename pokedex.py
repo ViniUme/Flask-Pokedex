@@ -111,12 +111,6 @@ def pokepage(id_page):
         list_pokemons = list_pokemons
         )
 
-@app.route("/pokemon/<id_pokemon>")
-def PokemonStatus(id_pokemon):
-    url = json.loads(requests.get(f"https://pokeapi.co/api/v2/pokemon/{id_pokemon}").text)
-
-    return render_template("pokemon-status.html", url = url)
-
 
 if (__name__ == "__main__"):
     app.run(debug=True)
