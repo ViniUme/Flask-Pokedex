@@ -3,6 +3,17 @@
 <div align="center">
    
    ![GitHub](https://img.shields.io/github/license/ViniUme/Flask-Pokedex?color=%23000&style=for-the-badge)
+
+</div>
+   
+## Translations
+
+- [Português Brasil]()
+
+<br>
+
+<div align="center">
+   
    ![Capturar](https://user-images.githubusercontent.com/66230638/149636411-5a33bfcd-0ccb-4a42-b388-c59259730533.PNG)
    
 </div>
