@@ -8,7 +8,7 @@
    
 ## Traduções
 
-- [English]()
+- [English](https://github.com/ViniUme/Flask-Pokedex)
 
 <br>
 
