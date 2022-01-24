@@ -8,11 +8,13 @@
    
 ## Translations
 
-- [Português Brasil]()
+- [Português Brasil](https://github.com/ViniUme/Flask-Pokedex/blob/master/translations/README-ptbr.md)
 
 <br>
 
 <div align="center">
+   
+   ### Access the site <a href="https://flaskpokedex.herokuapp.com">here</a>
    
    ![Capturar](https://user-images.githubusercontent.com/66230638/149636411-5a33bfcd-0ccb-4a42-b388-c59259730533.PNG)
    
@@ -40,8 +42,6 @@ A site maked with Python, using the Flask framework and get data from an API. Al
    ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
    
 </div>
-
-## Access the site <a href="https://flaskpokedex.herokuapp.com">here</a>
 
 ## how to run
 <ol>
